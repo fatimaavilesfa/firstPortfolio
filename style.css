@@ -1,0 +1,117 @@
+
+body {
+    max-width: 100%;
+    position: relative;
+    background-repeat: no-repeat;
+    background-image: url("black.jpg"); 
+    background-size: cover;
+}
+header {
+    background-repeat: no-repeat;
+    background-image: url("gray.jpg"); 
+    background-size: cover;
+}
+nav {
+    background-color: gray;
+    height: 62px;
+}
+
+footer {
+    background-repeat: no-repeat;
+    background-image: url("gray.jpg"); 
+    background-size: cover;
+    position: fixed;
+    bottom:0;
+    width:100%;
+    height: 161px;
+}
+h1, h3, h5, p, td, tr, a {
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+img {
+    border-radius: 50%;
+    width: 175px;
+    height: 175px;
+}
+.navbar a {
+    float: left;
+    display: block;
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  a:link {
+    text-decoration: none;
+  }
+  a:hover {
+    background-color: rgb(35, 35, 36);
+  }
+  .bodyContainer {
+      padding: 40px;
+      max-width: 92%;
+      grid-template-columns: repeat(5, 1fr);
+      grid-template-rows: repeat(2, auto);
+  }
+  #bodyTitle {
+    grid-column: 3;
+    text-align: center;
+  }
+  #bodyText {
+    grid-column: 2/5;
+    text-align: center;
+  }
+  .headerContainer {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax();
+  }
+  .navItems {
+      grid-column: 1/-1;
+      grid-row: 1;
+      text-align: center;
+  }
+ .items {
+    margin-top: 12px;
+ }
+  .roundimg {
+      grid-column: 3;
+  }
+  #text {
+    grid-column: 4/-1;
+  }
+  .bodyContainer {
+      display: grid;
+
+  }
+  table, td, th { 
+    text-align: center;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    padding: 11px;
+  }
+  /*project seperate desing*/
+  .projTitle {
+      text-align: center;
+      padding: 7px;
+  }
+  .videoDisplay {
+      display: grid;
+      grid-template-columns: repeat(2, 2fr);
+      text-align: center;
+      margin-top: 12px;
+      margin-bottom: 75px;
+  }
+  video {
+    margin: 0 0;
+    border: 5px solid #ddd;
+    border-radius: 18px;
+  }
